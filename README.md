@@ -1,3 +1,30 @@
+
+
+# amplifyapp
+
+Here, we will follow and take notes on making a small, full stack application
+using AWS, React, \& GraphQL.
+
+## Module 1: Deploy and Host a React App
+
+### 1.1: Create a new react application.
+
+We use the commands:
+```
+npx create-react-app amplifyapp
+cd amplifyapp
+npm start
+```
+npx is an alias for `npm exec` which essentially runs a command
+from a local or remote npm package.
+
+In this case, `create-react-package` is the package we're using:
+```
+```
+
+
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,3 +96,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # amplifyapp
+
+# [AWS Tutorial Page](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/)
