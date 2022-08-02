@@ -3,22 +3,16 @@
  * is held. It's just a single function that returns some html ..
  */
 
-// import data
 import logo from './logo.svg';
-
-// import some styling
 import './App.css';
 
 
-// define a function
 function App() {
   return (
 
-   // A division defined by style 
     <div className="App">
-      // Usually
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />A
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -35,6 +29,4 @@ function App() {
   );
 }
 
-// Get access to the content from code 
-// above, by default ...
 export default App;
