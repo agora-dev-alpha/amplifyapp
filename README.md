@@ -100,3 +100,32 @@ https://us-west-2.console.aws.amazon.com/amplify/home?region=us-west-2#/d1pzrdl1
 ``` 
 
 ### Module 3: 
+
+#### Add authentication
+
+It seems that amplify comes with some tools for helping setup the
+backend.
+
+```
+amplify add auth
+```
+
+#### Deploy
+
+```
+amplify push
+```
+
+Huh, so now amplify has a push method
+for adding local configurations. 
+My guess is that pushing the anything that's added
+let's the amplify service know which types of dependencies you
+need in order to 
+
+#### Edit the Build script
+
+In the amplify console, on the leftside toolbar,
+there are build settings where you find the script to
+edit. Add build targets for the new backend.
+
+In this case.
